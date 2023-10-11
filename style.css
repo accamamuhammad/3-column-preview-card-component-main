@@ -63,17 +63,32 @@ button {
 .first-component button {
   color: var(--first-component);
 }
+.first-component button:hover {
+  border: 1px solid white;
+  color: var(--primary);
+  background-color: var(--first-component);
+}
 .second-component {
   background-color: var(--second-component);
 }
 .second-component button {
   color: var(--second-component);
 }
+.second-component button:hover {
+  border: 1px solid white;
+  color: var(--primary);
+  background-color: var(--second-component);
+}
 .third-component {
   background-color: var(--third-component);
 }
 .third-component button {
   color: var(--third-component);
+}
+.third-component button:hover {
+  border: 1px solid white;
+  color: var(--primary);
+  background-color: var(--third-component);
 }
 @media (max-width: 780px) {
   .body {
